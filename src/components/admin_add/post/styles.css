@@ -1,0 +1,49 @@
+.input_wrap {
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+
+/* .row {
+  margin-top: 40px;
+} */
+
+.col > input {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.ant-input-affix-wrapper {
+  font-family: "Ubuntu", sans-serif !important;
+  background: #ffffff !important;
+  border: 2px solid #1fab8a !important;
+  border-radius: 20px !important;
+  padding: 13px !important;
+  outline: none !important;
+  margin-top: 5px !important;
+  outline: none !important;
+}
+
+.ant-input-affix-wrapper > input {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  color: #000 !important;
+  outline: none !important;
+  padding: 0 !important;
+}
+
+.ant-input-affix-wrapper > input:focus{
+  border: none !important;
+}
+
+.ant-input-affix-wrapper:hover {
+  border: 2px solid orange !important;
+}

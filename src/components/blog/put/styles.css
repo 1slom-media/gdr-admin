@@ -1,0 +1,82 @@
+.input_wrap {
+  width: 100%;
+}
+
+.scrool {
+  width: 100%;
+  /* overflow-y: auto; */
+}
+
+h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.row {
+  margin: 0 0 0 0 !important;
+}
+
+.col > input,
+select {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  font-family: "Ubuntu", sans-serif;
+  background: #ffffff;
+  border: 2px solid #eeeeee;
+  border-radius: 15px;
+  padding: 15px;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #aaaaaa;
+}
+
+.infor_box {
+  width: 100%;
+}
+
+.infor_box > p {
+  font-size: 14px;
+  /* text-align: justify; */
+}
+
+.infor_box > p > span {
+  font-weight: bold;
+}
+
+.ant-image-preview-wrap {
+  z-index: 9999 !important;
+}
+
+.ant-image-preview-operations-wrapper {
+  z-index: 99999 !important;
+}
+
+.ant-image-mask {
+  border-radius: 20px !important;
+}
+
+.none_img {
+  height: 175px;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: 2px solid #eeeeee;
+}
+
+.none_img > i {
+  font-size: 50px;
+  color: #666;
+}

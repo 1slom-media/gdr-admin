@@ -1,0 +1,31 @@
+.ant-select {
+  width: 100%;
+  font-family: "Ubuntu", sans-serif !important;
+  background: #ffffff !important;
+  border-radius: 15px !important;
+  padding: 8px 0;
+  border: 2px solid #eeeeee !important;
+  
+}
+
+.ant-select-selector{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* .ant-select-selection-search {
+  font-family: "Ubuntu", sans-serif;
+  background: #ffffff;
+  border: 2px solid #eeeeee;
+  border-radius: 15px;
+  padding: 15px;
+  outline: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #aaaaaa;   
+} */
+
+.ant-select-dropdown {
+  z-index: 9999 !important;
+}

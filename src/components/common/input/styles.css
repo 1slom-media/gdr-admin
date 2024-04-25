@@ -1,0 +1,15 @@
+.ant-input {
+  background: #ffffff !important;
+  /* border: 2px solid #eeeeee !important; */
+  border-radius: 20px !important;
+  padding: 15px !important;
+  outline: none !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  color: #000 !important;
+}
+
+.ant-input::placeholder{
+    color: #444;
+}

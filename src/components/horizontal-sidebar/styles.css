@@ -1,0 +1,101 @@
+.hori_sidebar {
+  height: 100dvh !important;
+}
+.hori_sidebar > .ant-layout-header {
+  height: auto !important;
+  width: auto !important;
+  margin: 10px 16px 0 16px !important;
+  background-color: #eb3000 !important;
+  position: fixed !important;
+  right: 0;
+  left: 0;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.hori_sidebar .ant-menu {
+  background-color: #eb3000 !important;
+}
+
+.hori_sidebar .ant-menu .ant-menu-item {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 10px !important;
+}
+
+.hori_sidebar > .ant-layout-content {
+  padding: 0 !important;
+  background: #f5f5f5 !important;
+}
+
+.hori_sidebar > .site-layout-content {
+  background-color: red !important;
+  border-radius: 20px !important;
+}
+
+.hori_sidebar > .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.switch_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.switch_wrapp > span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.ant-space-item {
+  display: flex !important;
+}
+.ant-space {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.drop_span {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.ant-dropdown-trigger:hover {
+  color: #fff !important;
+}
+
+.tool_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  outline: none;
+  border: none !important;
+  width: 100%;
+  color: #000;
+  padding: 0;
+}
+
+.tool_btns > span {
+  margin-right: 10px;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.darkmode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.darkmode > span {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
